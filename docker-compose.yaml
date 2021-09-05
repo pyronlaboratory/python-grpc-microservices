@@ -7,7 +7,7 @@ services:
             dockerfile: marketplace/Dockerfile
         environment:
             RECOMMENDATIONS_HOST: recommendations
-        image: marketplace
+        image: ronyx/marketplace
         networks:
             - microservices
         ports:
@@ -17,7 +17,7 @@ services:
         build:
             context: .
             dockerfile: recommendations/Dockerfile
-        image: recommendations
+        image: ronyx/recommendations
         networks:
             - microservices
 

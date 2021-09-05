@@ -1,4 +1,4 @@
-# python-grpc-microservices
+# python-microservices-grpc
 A simple online store to demonstrate microservice communication with gRPC. 
 
 Reference: https://realpython.com/python-microservices-grpc/
